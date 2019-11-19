@@ -2163,7 +2163,7 @@ body.is-menu-visible #menu {
   -ms-justify-content: center;
   justify-content: center;
   cursor: default;
-  height: 100vh;
+  height: 120vh;
   min-height: 35em;
   overflow: hidden;
   position: relative;
@@ -2500,3 +2500,15 @@ section.spotlight {
   border-radius: 0;
   margin: auto;
   width: 85%; }
+
+.profile-photo {
+  height: auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1em auto; }
+  .profile-photo img {
+    height: inherit;
+    width: inherit;
+    border-radius: 10px; }
