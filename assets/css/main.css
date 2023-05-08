@@ -2466,6 +2466,8 @@ span.devicon-ruby-plain,
 span.devicon-html5-plain,
 span.devicon-postgresql-plain,
 span.devicon-jquery-plain,
+span.devicon-typescript-plain,
+span.devicon-git-plain,
 span.devicon-html5-plain {
   font-size: 5em;
   display: flex;
@@ -2480,6 +2482,8 @@ span.devicon-html5-plain {
   span.devicon-html5-plain span,
   span.devicon-postgresql-plain span,
   span.devicon-jquery-plain span,
+  span.devicon-typescript-plain,
+  span.devicon-git-plain,
   span.devicon-html5-plain span {
     font-size: 0.3em;
     font-family: "Open Sans", Helvetica, sans-serif; }
