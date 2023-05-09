@@ -1582,7 +1582,7 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
-		height: 120vh;
+		height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -1931,62 +1931,3 @@
 			}
 		}
 	}
-
-	span.devicon-rails-plain, 
-	span.devicon-javascript-plain,
-	span.devicon-react-original,
-	span.devicon-python-plain,
-	span.devicon-css3-plain,
-	span.devicon-ruby-plain,
-	span.devicon-html5-plain,
-	span.devicon-postgresql-plain,
-	span.devicon-jquery-plain,
-	span.devicon-typescript-plain,
-	span.devicon-git-plain,
-	span.devicon-html5-plain {
-		font-size: 5em;
-		display: flex;
-		flex-direction: column;
-		padding-top: 0.5em;
-		span{
-			font-size: 0.3em;
-			font-family: _font(family);
-		}
-	}
-
-section.spotlight {
-    padding: 2%;
-}
-
-
-.spotlight .image {
-    -moz-order: 1;
-    -webkit-order: 1;
-    -ms-order: 1;
-    order: 1;
-    border-radius: 0;
-    margin: auto;
-    width: 40%;
-}
-
-
-.spotlight .image img {
-    border-radius: 0;
-    margin: auto;
-    width: 85%;
-}
-
-.profile-photo {
-    height: auto;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	margin: 0 auto 1em auto;
-	img {
-    height: inherit;
-    width: inherit;
-    border-radius: 10px;
-	}
-}
-
